@@ -1,0 +1,5 @@
+{
+  "name": "Age Calculator",
+  "description": "A simple and beautifully designed tool to calculate your age based on your date of birth. Enter your day, month, and year of birth to see your exact age in years, months, and days.",
+  "requestFramePermissions": []
+}
