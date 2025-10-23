@@ -303,6 +303,11 @@ export default function App() {
             <AgeDisplay value={age ? age.months : '--'} label="bulan" />
             <AgeDisplay value={age ? age.days : '--'} label="hari" />
         </section>
+        <footer className="text-center mt-6">
+            <p className="text-xs text-gray-400">
+                Developer: <a href="https://www.threads.com/@zakiromdoni" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600 transition-colors">ZR</a>
+            </p>
+        </footer>
       </div>
       {generationInfo && <GenerationPopup info={generationInfo} onClose={() => setGenerationInfo(null)} />}
     </main>
